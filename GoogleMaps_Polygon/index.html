@@ -1,18 +1,22 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <link rel="stylesheet" href="style.css">
-    </head>
-    
-    <body>
-        <div id="map"></div>
-    </body>
-    
-    <!-- 
+
+<head>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="map"></div>
+    <div class="controls">
+        <button id="btnGet">Click to see Manhattan</button>
+        <div class="loader" id="spinner"></div>
+    </div>
+</body>
+
+<!-- 
         placing this script tag at the bottom since 'script.js' will
         be dynamically loading google maps script and needs the <body>
         to be completely parsed and created into the DOM
     -->
-    <script src="script.js"></script>
-        
+<script src="script.js"></script>
 </html>

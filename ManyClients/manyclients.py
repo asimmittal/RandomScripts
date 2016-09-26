@@ -5,7 +5,7 @@
 import threading, sys, time, traceback
 import urllib, json
 
-baseUrl = "http://ec2-54-186-98-197.us-west-2.compute.amazonaws.com/getZipCodeBound/11102"
+baseUrl = "http://ec2-54-186-98-197.us-west-2.compute.amazonaws.com/getZipCodeBound/11102&92122&90"
 
 def getURL(arg):
 	url = baseUrl
