@@ -2,32 +2,53 @@ var db = {
     baseDir: "content",
     data: [
         {
-            message: "This is a long message #1",
+            message: "Win the war for talent",
             video_mp4: "vid1.mp4",
             video_webm: "vid1.webm",
             poster: "vid1.png",
-            url: "http://google.com"
+            url: "#"
         },
         {
-            message: "This is a really long message #2",
+            message: "Take advantage of data analytics",
             video_mp4: "vid2.mp4",
             video_webm: "vid2.webm",
             poster: "vid2.png",
-            url: "http://google.com"
+            url: "#"
         },
         {
-            message: "This is a message #3",
+            message: "Leverage technology advancements",
             video_mp4: "vid3.mp4",
             video_webm: "vid3.webm",
             poster: "vid3.png",
-            url: "http://google.com"
+            url: "#"
         },
         {
-            message: "This is a message #4",
+            message: "Reduce the cost of compliance",
             video_mp4: "vid4.mp4",
             video_webm: "vid4.webm",
             poster: "vid4.png",
-            url: "http://google.com"
+            url: "#"
+        },
+        {
+            message: "Improve HR processes",
+            video_mp4: "vid5.mp4",
+            video_webm: "vid5.webm",
+            poster: "vid5.png",
+            url: "#"
+        },
+        {
+            message: "Integrate HCM systems",
+            video_mp4: "vid6.mp4",
+            video_webm: "vid6.webm",
+            poster: "vid6.png",
+            url: "#"
+        },
+        {
+            message: "Ensure data security",
+            video_mp4: "vid7.mp4",
+            video_webm: "vid7.webm",
+            poster: "vid7.png",
+            url: "#"
         }
     ]
 };
