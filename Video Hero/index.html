@@ -2,35 +2,35 @@
 <html>
 	<head>
 		<link rel="stylesheet" href="style.css">
-        <script src="videohero.js" type="text/javascript"></script>
 	</head>
     
 	<body>
 		<div id="vidHeroContainer">  
             <!-- Video -->
-            <video poster="content/screen1.png" autoplay>
-                <source src="content/vid1.mp4" type="video/mp4">
+            <video id="video" poster="content/screen1.png">
+                <source id="videoSrc_mp4" src="content/vid1.mp4" type="video/mp4">
                 Your Browser doesn't support HTML5 Video
             </video>   
             
             <!-- overlay -->
-            <div id="overlay"></div>
+            <div class="overlay_init" id="overlay"></div>
             
             <!-- Progress bar -->
             <div id="pgContainer">
-                <div class="progBar" id="pgFill"></div>
+                <div class="init_pgBar" id="pgFill"></div>
             </div>
             
             <!-- Text -->
             <div class="centered" id="txtContainer">
-                <div id="lblChallenge">challenge 1 of 7</div>
+                <div id="lblChallenge">challenge</div>
                 <div id="lblHowDoI">How Do I...</div>
                 <div class="animText" id="lblVarText"></div>
                 <div class="line"></div>
                 <a id="link"></a><div id="btnDiscover">Discover how we help</div></a>
             </div>
+        <script src="videohero.js" type="text/javascript"></script>
 		</div>
 	</body>	
-
+    
 </html>
 
