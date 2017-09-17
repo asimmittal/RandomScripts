@@ -7,7 +7,7 @@ const fs = require("fs");
 
 //base url
 var draftExpBaseUrl = "http://www.draftexpress.com/nba-pre-draft-measurements/all/all/all/all/%";
-const maxPages = 3;
+const maxPages = 40;
 
 //aggregate data
 var allPlayerStats = [];
