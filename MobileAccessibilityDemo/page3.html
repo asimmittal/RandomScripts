@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    
+    <head>
+        <style>
+            body{
+                padding:30px;
+            }
+            
+            button{
+                width:100%;
+                background:lightgray;
+                border:1px solid gray;
+                height:50px;
+                font-size: 13px;
+            }
+            
+            .item{
+                border: 1px solid gray;
+                width:100%;
+                margin-top:20px;
+                margin-bottom:20px;
+                height:100px;
+            }
+            
+            .block{
+                display: inline-block;
+                background: pink;
+                padding:10px;
+                width:50px;
+                margin:10px;
+            }
+            
+            .left{
+                float:left;
+            }
+            .right{
+                float:right;
+            }
+        </style>
+        
+        
+        <script>
+            function focusOnLeft(){
+                var left = document.getElementById("left");
+                if(left) left.focus();
+            }
+            
+            function setFocusText(str){
+                document.getElementById("txtFocused").innerHTML = " " + str.toUpperCase();
+            }
+        </script>
+    </head>
+    
+    <body>
+        <a class="item" href="page2.html">< Back</a>
+        <h1>Focus</h1>
+        
+        <button onclick="focusOnLeft()" onfocus="setFocusText('button')">   
+            Click to focus on LEFT
+        </button>
+        
+        <div class="item">
+            <div id="left" class="left block" tabindex="0" onfocus="setFocusText('left')">LEFT</div>
+            <div id="right" class="right block" tabindex="0" onfocus="setFocusText('right')">RIGHT</div>
+        </div>
+        
+        <p>Currently focused on:<span id="txtFocused"></span></p>
+        
+        <a class="item" href="page3.html" tabindex="0" onfocus="setFocusText('link')">Next ></a>
+    </body>
+</html>

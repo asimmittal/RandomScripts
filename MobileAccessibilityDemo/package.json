@@ -1,0 +1,15 @@
+{
+  "name": "mob-acc-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+      "build": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "express": "^4.15.4",
+    "portastic": "^1.0.1"
+  }
+}
