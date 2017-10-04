@@ -1,0 +1,17 @@
+{
+  "name": "scraper-exp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "curl": "^0.1.4",
+    "jquery": "^3.2.1",
+    "jsdom": "^11.3.0"
+  }
+}
+
