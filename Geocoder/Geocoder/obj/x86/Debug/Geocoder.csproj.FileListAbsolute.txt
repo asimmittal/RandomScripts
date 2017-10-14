@@ -1,0 +1,5 @@
+/Users/amittal/Projects/Geocoder/Geocoder/bin/Debug/Geocoder.exe
+/Users/amittal/Projects/Geocoder/Geocoder/bin/Debug/Geocoder.pdb
+/Users/amittal/Projects/Geocoder/Geocoder/obj/x86/Debug/Geocoder.csproj.CoreCompileInputs.cache
+/Users/amittal/Projects/Geocoder/Geocoder/obj/x86/Debug/Geocoder.exe
+/Users/amittal/Projects/Geocoder/Geocoder/obj/x86/Debug/Geocoder.pdb
